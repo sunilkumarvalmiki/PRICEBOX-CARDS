@@ -1,0 +1,137 @@
+body,
+html {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.card-deck {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    float: none;
+    margin: 10px;
+    margin: 0 auto;
+    font-weight: bold;
+    border: 0px;
+}
+
+.card2 {
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 300px;
+    float: none;
+    margin: 10px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.card3 {
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 300px;
+    float: none;
+    margin: 10px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.card4 {
+
+    width: 300px;
+    float: none;
+    margin: 10px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.card-head-free {
+    text-align: center;
+    padding: 25px;
+    background: #d6fcf2;
+}
+
+.card-head-basic {
+    text-align: center;
+    padding: 25px;
+    background: #fcfcd5;
+}
+
+.card-head-standard {
+    text-align: center;
+    padding: 25px;
+    background: #73c69f;
+}
+
+.card-head-premium {
+    text-align: center;
+    padding: 25px;
+    background: #f6c8fc;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.free {
+    background: #f3fefa;
+}
+
+.basic {
+    background: #e7e6ce;
+}
+
+.standard {
+    background: #99f7ba;
+}
+
+.premium {
+    background: #fbecfe;
+}
+
+b {
+    font-size: xxx-large;
+}
+
+button {
+    border-radius: 0px;
+}
+
+.borderClass {
+    border: 2px solid black;
+}
+
+.card-head-free:hover {
+    border: 0px solid white;
+}
+
+.card-head-basic:hover {
+    border: 0px solid white;
+}
+
+.card-head-standard:hover {
+    border: 0px solid white;
+}
+
+.card-head-premium:hover {
+    border: 0px solid white;
+}
+
+.head-border {
+    border: 2px solid black;
+}
+
+.clear {
+    clear: both;
+}
+
+.card-deck.vertical-center.justify-content-center {
+    left: 85px;
+}
